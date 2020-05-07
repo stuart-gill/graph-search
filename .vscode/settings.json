@@ -2,6 +2,8 @@
   "files.associations": {
     "memory": "cpp",
     "regex": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp"
   }
 }
