@@ -88,8 +88,8 @@ void informalTests() {
   // You should set these to true if you want to run all the informal tests:
   // (The output will be very verbose.)
   constexpr bool doEx1Tests = true;
-  constexpr bool doEx2Tests = false;
-  constexpr bool doEx3Tests = false;
+  constexpr bool doEx2Tests = true;
+  constexpr bool doEx3Tests = true;
   // Some of the tests may take a few seconds to process. If that is annoying,
   // you can temporarily disable them by setting this to false:
   constexpr bool doEx3SlowTests = true; // requires doEx3Tests == true
