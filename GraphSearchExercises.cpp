@@ -48,11 +48,14 @@
 // a set of the unique edges only.
 int GridGraph::countEdges() const {
   int numEdges = 0;
-
-  // =======================================================================
-  // TODO: Your code here!
-  // =======================================================================
-
+  for (const auto& kv : adjacencyMap) {
+      // key: point
+      const auto& p1 = kv.first;
+      // value: neighbor point set
+      const auto& p1_neighbors = kv.second;
+      numEdges += p1_neighbors.size();
+  }
+  numEdges /=2;
   return numEdges;
 }
 

@@ -87,7 +87,7 @@ void informalTests() {
   constexpr bool showDemonstrations = false;
   // You should set these to true if you want to run all the informal tests:
   // (The output will be very verbose.)
-  constexpr bool doEx1Tests = false;
+  constexpr bool doEx1Tests = true;
   constexpr bool doEx2Tests = false;
   constexpr bool doEx3Tests = false;
   // Some of the tests may take a few seconds to process. If that is annoying,
